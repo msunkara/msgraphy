@@ -1,0 +1,64 @@
+/*
+Copyright 2011 Maik Balleyer (Biloba IT)  (email : balleyer@biloba-it.de)
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License, version 2, as 
+published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+#bilobaflickr_homepage {
+	display: block;
+	color: #3F3F3F;
+	margin: 20px 0 0 0;
+	padding: 3px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#bilobaflickr_homepage:visited {
+	text-decoration: none;
+}
+
+#bilobaflickr_morelink {
+	display: block;
+	color: #3F3F3F;
+	margin: 10px 0 0 0;
+	padding: 3px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#bilobaflickr_morelink:visited {
+	text-decoration: none;
+}
+
+.bilobaflickr_input label {
+	display: block;
+}
+
+.bilobaflickr_item_box {
+	margin: 15px 0 0 0;
+	text-align: center;
+	width: 100%;
+}
+
+.bilobaflickr_item_small {
+	margin: 0 auto 10px auto;
+	text-align: center;
+	width: 240px;
+}
+
+.bilobaflickr_item_thumb {
+	margin: 0 auto 10px auto;
+	text-align: center;
+	width: 100px;
+}

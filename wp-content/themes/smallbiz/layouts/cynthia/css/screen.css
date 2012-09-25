@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+
+/* Cynthia Unique CSS */
+
+#business {
+margin-bottom:12px;
+}
+
+#home{
+margin-top: -2px;
+width:960px;
+background:grey;
+}
+
+#homeimage {
+float: none;
+border:none;
+padding:0px;
+}
+
+#homeimage img {
+padding:0px;
+margin-left:-6px;
+width: 954px;
+-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+    -moz-box-shadow:  0 1px 2px #AAAAAA;
+	-webkit-box-shadow:  0 1px 2px #AAAAAA;
+    box-shadow: 0 1px 2px #AAAAAA;
+}
+
+}
+
+#home h3{
+font:18px Gotham, Sans-Serif;}
+
+#homepage-left{
+float: left;
+width: 210px;
+height:380px;
+background:#f5f5f6;
+margin-left:-6px;
+margin-bottom:7px;
+padding-left:15px;
+padding-right:15px;
+padding-top:15px;
+padding-bottom:15px;
+overflow:hidden;
+    -webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+    -moz-box-shadow:  0 1px 2px #AAAAAA;
+	-webkit-box-shadow:  0 1px 2px #AAAAAA;
+    box-shadow: 0 1px 2px #AAAAAA;
+}
+
+#homepage-left img{
+padding:0px;
+ -webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+    -moz-box-shadow:  0 1px 2px #AAAAAA;
+	-webkit-box-shadow:  0 1px 2px #AAAAAA;
+    box-shadow: 0 1px 2px #AAAAAA;
+}
+
+#homepage-right{
+float: right;
+width: 666px;
+height:380px;
+background:#f5f5f6;
+margin-bottom:7px;
+margin-right: 15px;
+padding-left:15px;
+padding-right:15px;
+padding-top:15px;
+padding-bottom:15px;
+overflow:hidden;
+    -webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+    -moz-box-shadow:  0 1px 2px #AAAAAA;
+	-webkit-box-shadow:  0 1px 2px #AAAAAA;
+    box-shadow: 0 1px 2px #AAAAAA;
+}
+
+#homepage-right img{
+padding:0px;
+ -webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+    -moz-box-shadow:  0 1px 2px #AAAAAA;
+	-webkit-box-shadow:  0 1px 2px #AAAAAA;
+    box-shadow: 0 1px 2px #AAAAAA;
+}
+
+#homepage-right p{
+padding-right:30px;
+}
+

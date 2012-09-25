@@ -1,0 +1,76 @@
+.wiziapp_errors_container{
+    background: url(@@@WIZIAPP_CDN@@@/images/cms/PopUpWin.png) no-repeat;
+    height: 448px;
+    width: 546px;
+    overflow: auto;
+    z-index: 999;
+}
+.wiziapp_errors_container.s_container{
+    background: url(@@@WIZIAPP_CDN@@@/images/cms/winSmall.png) no-repeat;
+    height: 203px;
+    width: 610px;
+    overflow: auto;
+    position: relative;
+    top: -63px;
+    margin: 0px auto;
+    z-index: 999;
+}
+.wiziapp_errors_container .errors{
+    margin: 20px 20px 12px 30px;
+    height: 345px;
+    width:496px;
+    overflow: auto;
+}
+.wiziapp_errors_container.s_container .errors{
+    height: 100px;
+    width:543px;
+    overflow: auto;
+    margin: 20px 20px 12px 41px;
+}
+
+.wiziapp_errors_container .wiziapp_error{
+    padding: 10px 10px 10px 30px;
+    background: url(@@@WIZIAPP_CDN@@@/images/cms/error_Icon.png) no-repeat left center;
+    border-bottom: 1px inset;
+    height: auto;
+    width: auto;
+    float: left;
+    position: static;
+    margin: 0px 0px;
+}
+
+.wiziapp_errors_container .wiziapp_error:last-child{
+    border-bottom: 0px none;
+}
+
+.wiziapp_errors_container .buttons{
+    text-align: right;
+    height: 45px;
+    margin: 0px 20px 0px 30px;
+}
+.wiziapp_errors_container .buttons a{
+    font-weight: bolder;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    height: 33px;
+    line-height: 33px;
+}
+.wiziapp_errors_container .report_issue, #wiziapp_report_problem{
+    background: url(@@@WIZIAPP_CDN@@@/images/cms/ReportBTN.png) no-repeat left center;
+    width: 164px;
+}
+
+.wiziapp_errors_container .retry_processing, #wiziapp_retry_compatibilities{
+    background: url(@@@WIZIAPP_CDN@@@/images/cms/RetryBTN.png) no-repeat left center;
+    width: 77px;
+}
+.wiziapp_errors_container .buttons .retry_processing{
+    color: #fff;
+}
+#wiziapp_close_compatibilities{
+    background: url(@@@WIZIAPP_CDN@@@/images/cms/CancelBTN.png) no-repeat left center;
+    width: 86px;
+}

@@ -1,0 +1,338 @@
+body{
+   background-image:url(@@@WIZIAPP_CDN@@@/images/app/themes/black_slide/background.png);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 0px 0px;
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica, Neue;
+    font-size:14px;
+    color: white;
+    overflow-x: hidden;
+}
+a, a:active, a:visited{
+    color: white;
+}
+
+h2.pageitem a{
+    font-size: 15px;
+}
+
+#post_title{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.page_content{
+    width: 310px;
+    margin: 5px 0;
+    padding: 0 5px ;
+    word-wrap: break-word;
+    
+}
+
+.pageitem div{
+    /*max-width: 300px;*/
+}
+
+.pageitem input{
+    max-width: 282px;  
+    padding: 5px;
+    font-size: 1.2em; 
+}
+
+.pageitem textarea{
+    max-width: 280px;    
+    padding: 5px;
+    font-size: 1.2em; 
+}
+
+.pageitem .post .wiziAppMultiImage img{
+    border: none;
+}
+.pageitem .post img{
+   border: 1px solid #6c6c6c;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+}
+.wiziapp_star_container{
+    float: none;
+    width:180px;
+}
+
+.wiziapp_star_on{
+    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/black_slide/stars-on.png) no-repeat 0px 0px;
+}
+.wiziapp_star_off{
+    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/black_slide/stars-off.png) no-repeat 0px 0px;
+}
+.wiziapp_star{
+    width: 17px;
+    height: 16px;
+}
+#author_and_date{
+    display: block;
+/*    float: left;*/
+    font-size: 12px;
+}
+#author_and_date a{
+    color: #e5c900;
+    text-decoration: none;
+    font-weight: bold;
+}
+.single-post-meta-top{
+    clear: both;
+}
+.wiziapp_footer_links{
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    display: block;
+    height: 100%;
+    font-size: 17px;
+    text-indent: 0;
+    padding: 1px 0 0;
+    position: relative;
+/*    background: transparent url(@@@WIZIAPP_CDN@@@/images/simulator/more_cell_item.png) no-repeat scroll 96% center;*/
+}
+
+.wiziapp_footer_links .title-bar{
+    height: 45px;
+    width: 90px;
+     background-color: #1a1a1a;
+    opacity:0.7;
+    text-align: center;
+/*    margin-top: 45px;*/
+    position: absolute;
+    top: 45px;
+    left: 0;
+}
+.wiziapp_footer_links .title{
+    font-weight: bolder;
+    text-indent: 0;
+    display: inline-block;
+    font-size: 14px;
+    
+
+   position: absolute;
+   top: 50px;
+   width: 90px;
+   text-align: center;
+   left: 0;
+   z-index: 1;
+    
+    
+}
+.wiziapp_footer_links .names{
+    display: none;
+}
+#wiziapp_comment_footer_link{
+     background: url("@@@WIZIAPP_CDN@@@/images/app/themes/black_slide/image-comments.png") no-repeat scroll left top transparent;
+}
+/*#wiziapp_comment_footer_link .title{
+   
+    
+}*/
+#wizapp_cats_footer_link{
+    background: url("@@@WIZIAPP_CDN@@@/images/app/themes/black_slide/image-comments-153.png") no-repeat scroll left top transparent;
+}
+/*#wizapp_cats_footer_link .title{
+    
+    font-size: 17px;
+}*/
+#wizapp_tags_footer_link {
+    background: url("@@@WIZIAPP_CDN@@@/images/app/themes/black_slide/image-comments-155.png") no-repeat scroll left top transparent;
+}
+
+.wiziapp_bottom_nav li{
+/*    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/default/chrome-back.png) repeat-y 0px -2px;*/
+float: left;
+border: none;
+width: 90px;
+height: 90px;
+border: 1px solid #6c6c6c;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+margin: 0 5px;
+}
+
+.wiziapp_bottom_nav li:first-child{
+/*border-top: none;*/
+    border-top: 1px solid #6c6c6c;
+    border-bottom: 1px solid #6c6c6c;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+}
+
+.wiziapp_bottom_nav li:last-child{
+    border-top: 1px solid #6c6c6c;
+    border-bottom: 1px solid #6c6c6c;
+/*    border-bottom: none;*/
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+}
+
+
+
+
+/* Start Multi Image */
+
+.pageitem .wiziAppMultiImage .wiziAppMultiImageScrolling{
+    overflow-y: hidden;
+}
+
+/* End Multi Image */
+/* Start AudioCellItem */
+.audioCellItem{
+    height: 70px;
+    width: 300px;
+    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/default/chrome-back.png) no-repeat 0px 0px;
+    font-size: 13px;
+    position: relative;
+    margin: 10px 0px;
+}
+.audioCellItem a{
+    text-decoration: none;
+}
+.audioCellItem .col1{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.audioCellItem .col1 .imageURL{
+    margin: 5px;
+    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/default/cuts_sound.png) no-repeat;
+    width: 60px;
+    height: 60px;
+}
+.audioCellItem .col2{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    margin: 5px 0px;
+}
+.audioCellItem .col2 p{
+    margin: 5px 0px;
+}
+.audioCellItem .col2 .title{
+    font-size: 15px;
+    font-family: "Helvetica Neun", Arial;
+    font-weight: bold;
+}
+.audioCellItem .col3{
+    height: 70px;
+    width: 60px;
+    position: absolute;
+    top: 0px;
+    left: 220px;
+}
+.audioCellItem .playButton{
+    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/classic/cuts_play_med_off.png) no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+/* End AudioCellItem */
+
+.video_wrapper{
+    position: relative;
+    float: left;
+    clear: both;
+}
+.video_effect{
+    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/default/cuts_play_med_on.png) no-repeat center center;
+    position: absolute;
+    top: 0px; left: 0px;
+    width: 100%;
+    height: 100%;
+}
+/*Registration page*/
+.registration{
+    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/default/chrome-back.png) no-repeat scroll;
+    padding-top:10px;
+}
+#registration{
+    border: 1px solid #bbbbbb;
+    width:300px;
+    margin: 0 auto;
+    -moz-border-radius:8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    background-color: white;
+}
+#registration div{
+    width:290px;
+    margin: 0 auto;
+    text-align: center;
+    height: 43px;
+    line-height: 43px;
+}
+#registration div.border{
+    border-bottom: 1px solid #bbbbbb;
+}
+#registration div.bottom{
+    border-bottom: 0;
+}
+#registration input{
+    background:transparent;
+    border: 0;
+}
+#registration input#user_email{
+    margin-left: 32px;
+    width: 204px;
+}
+#registration input#user_login{
+    width: 204px;
+}
+#registration input#user_login_fgt{
+    width: 145px;
+}
+#registration input#submit{
+    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/default/cuts_signup.png) no-repeat center center;
+    color: white;
+    font-weight: bold;
+    width: 81px;
+    height: 31px;
+}
+#registration input#submit_long{
+/*    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/default/button_long.png) no-repeat center center;*/
+    background: url(http://externaldev.apptelecom.com/wordpress/wp-content/plugins/wiziapp/themes/default/button_long.png) no-repeat center center;
+    color: white;
+    font-weight: bold;
+    width: 158px;
+    height: 29px;
+}
+#registration label{
+    font-weight: bold;
+}
+#reg_passmail{
+    margin:0 auto;
+    width:225px;
+}
+/*End registration page*/
+.pageitem .table_wrapper_top{
+    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/default/cms/chart_back_top.png) repeat-x;
+    height: 5px;
+    width: 310px;
+}
+.pageitem .table_wrapper_content{
+    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/default/cms/chart_back_bg.png) repeat;
+    width: 310px;
+}
+.pageitem  .table_wrapper_footer{
+    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/default/cms/chart_back_bottom.png) repeat-x;
+    height: 5px;
+    width: 310px;
+}
+.table_wrapper_content_inner{
+    background-color: black;
+}
+
+.pageitem .scroll .sc_inn {
+background-color:white;
+}

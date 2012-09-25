@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+/* Foursquare Unique CSS */
+
+#home{
+width:960px;
+}
+
+#home h3{
+font:18px Gotham, Sans-Serif;}
+
+#business {
+	border-bottom-style:solid;
+	border-bottom-width:3px;
+	border-bottom-color:#686c8a;
+}
+
+#homepage-top-left{
+float: left;
+width: 472px;
+height:298px;
+background:#f5f5f6;
+margin-right:8px;
+margin-bottom:8px;
+overflow:hidden;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+    -moz-box-shadow:  0 1px 2px #AAAAAA;
+	-webkit-box-shadow:  0 1px 2px #AAAAAA;
+    box-shadow: 0 1px 2px #AAAAAA;
+}
+
+#homepage-top-left img{
+border:none;
+padding:0px;
+margin-top: -0.5em
+}
+
+
+#homepage-top-right{
+float: left;
+width: 434px;
+height:268px;
+background:#f5f5f6;
+margin-bottom:8px;
+padding-left:15px;
+padding-right:15px;
+padding-top:15px;
+padding-bottom:15px;
+overflow:hidden;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+    -moz-box-shadow:  0 1px 2px #AAAAAA;
+	-webkit-box-shadow:  0 1px 2px #AAAAAA;
+    box-shadow: 0 1px 2px #AAAAAA;
+}
+
+#homepage-top-right img{
+padding:0px;
+-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+    -moz-box-shadow:  0 1px 2px #AAAAAA;
+	-webkit-box-shadow:  0 1px 2px #AAAAAA;
+    box-shadow: 0 1px 2px #AAAAAA;
+}
+
+#homepage-bottom-left{
+float: left;
+width: 442px;
+height:278px;
+background:#f5f5f6;
+margin-right:8px;
+margin-bottom:7px;
+padding-left:15px;
+padding-right:15px;
+padding-top:15px;
+padding-bottom:15px;
+overflow:hidden;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+    -moz-box-shadow:  0 1px 2px #AAAAAA;
+	-webkit-box-shadow:  0 1px 2px #AAAAAA;
+    box-shadow: 0 1px 2px #AAAAAA;
+}
+
+
+#homepage-bottom-left img{
+padding:0px;
+-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+    -moz-box-shadow:  0 1px 2px #AAAAAA;
+	-webkit-box-shadow:  0 1px 2px #AAAAAA;
+    box-shadow: 0 1px 2px #AAAAAA;
+}
+
+#homepage-bottom-right{
+float: left;
+margin-bottom:7px;
+width: 434px;
+height:278px;
+background:#f5f5f6;
+padding-left:15px;
+padding-right:15px;
+padding-top:15px;
+padding-bottom:15px;
+overflow:hidden;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+    -moz-box-shadow:  0 1px 2px #AAAAAA;
+	-webkit-box-shadow:  0 1px 2px #AAAAAA;
+    box-shadow: 0 1px 2px #AAAAAA;
+}
+
+
+#homepage-bottom-right img{
+padding:0px;
+ 	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+    -moz-box-shadow:  0 1px 2px #AAAAAA;
+	-webkit-box-shadow:  0 1px 2px #AAAAAA;
+    box-shadow: 0 1px 2px #AAAAAA;
+}

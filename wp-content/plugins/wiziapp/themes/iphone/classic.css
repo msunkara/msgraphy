@@ -1,0 +1,182 @@
+body{
+    background: #000 url(@@@WIZIAPP_CDN@@@/images/app/themes/classic/cuts_back.png) repeat-y fixed top left;
+    background-color: #000;
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica, Arial;
+    font-size:14px;
+    color: #4c596e;
+    overflow-x: hidden;
+    
+}
+a, a:active, a:visited{
+    color: #4c596e;
+}
+body div{
+    max-width: 320px;
+}
+.clear{
+    clear: both;
+}
+.pageitem{
+    background-color: #fff;
+    border: 1px solid #878787;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    display: block;
+    margin: 10px 10px 5px;
+    padding: 10px;
+/*    line-height: 18px;*/
+}
+h2.pageitem{
+    padding: 15px 10px;
+}
+
+#post_title{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+.page_content{
+    width: 320px;
+    word-wrap: break-word;
+}
+embed{
+    max-width: 288px;
+}
+
+.pageitem div{
+    max-width: 288px;
+}
+
+.pageitem input{
+    max-width: 270px;  
+    padding: 5px;
+    font-size: 1.2em; 
+}
+
+.pageitem textarea{
+    max-width: 268px;    
+    padding: 5px;
+    font-size: 1.2em; 
+}
+
+.wiziapp_star_on{
+    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/classic/cuts_rate1.png) no-repeat 0px 0px;
+}
+.wiziapp_star_off{
+    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/classic/cuts_rate2.png) no-repeat 0px 0px;
+}
+
+#author_and_date{
+    display: block;
+    float: left;
+    font-size: 12px;
+}
+.single-post-meta-top{
+    clear: both;
+}
+.wiziapp_footer_links{
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    display: block;
+    height: 100%;
+}
+.wiziapp_footer_links .title{
+    font-weight: bolder;
+}
+.wiziapp_bottom_nav{
+    margin: 0px;
+    margin: 5px 10px 5px;
+}
+.wiziapp_bottom_nav li{
+    background: #fff url(@@@WIZIAPP_CDN@@@/images/simulator/more_cell_item.png) no-repeat scroll 96% center;
+}
+
+.wiziapp_bottom_nav li:hover a, .wiziapp_bottom_nav li.hover a{
+    color: #ffffff;
+}
+
+.wiziapp_bottom_nav li{
+    border-top: 0px none;
+}
+
+
+
+.pageitem .table_wrapper{
+    max-height: 350px;
+    height: 350px;
+}
+
+
+.table_wrapper_content_inner{
+    height: 330px;
+}
+.pageitem .table_wrapper_content{
+    height: 350px;
+}
+
+/* Start Multi Image */
+
+
+/* End Multi Image */
+/* Start AudioCellItem */
+.audioCellItem{
+/*    height: 70px;*/
+    width: 280px;
+    background: #000 url(@@@WIZIAPP_CDN@@@/images/app/themes/classic/cuts_image_highlight-99.png) no-repeat 252px 1px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    color: #fff;
+    font-size: 13px;
+    position: relative;
+    margin: 10px 0px;
+}
+.audioCellItem a{
+    text-decoration: none;
+}
+.audioCellItem .col1{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.audioCellItem .col1 .imageURL{
+    margin: 5px;
+    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/classic/cuts_sound.png) no-repeat;
+    width: 60px;
+    height: 60px;
+}
+.audioCellItem .col2{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    margin: 5px 0px;
+}
+.audioCellItem .col2 p{
+    margin: 5px 0px;
+}
+.audioCellItem .col2 .title{
+    font-size: 15px;
+    font-family: "Helvetica Neun", Arial;
+    font-weight: bold;
+}
+.audioCellItem .col3{
+    height: 70px;
+    width: 60px;
+    position: absolute;
+    top: 0px;
+    left: 210px;
+}
+.audioCellItem .playButton{
+    background: url(@@@WIZIAPP_CDN@@@/images/app/themes/classic/cuts_play_med_off.png) no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+/* End AudioCellItem */

@@ -1,0 +1,196 @@
+/* Reset */
+
+a, abbr, acronym, address, area, b, bdo, big, blockquote, body, button, caption, cite,
+code, col, colgroup, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4,
+h5, h6, hr, html, i, images, ins, kbd, label, legend, li, map, object, ol, p, param, pre,
+q, samp, small, span, strong, sub, sup, table, tbody, td, textarea, tfoot, th, thead,
+tr, tt, ul, var {margin:0;padding:0;vertical-align:baseline}
+
+
+p{
+font-size:18px;
+margin:0.1em 0 0.1em 0;
+}
+
+#content p{
+margin-right: 0px;
+margin:0.1em 0 0.1em 0;
+font-size:18px;
+}
+
+img{
+border:none;
+padding:none;
+margin:0px;
+}
+
+#content img{
+border:none;
+padding:0px;
+margin:0px;
+}
+
+#headerstrip img{
+border:none;
+padding:0px;
+}
+
+#content ul{
+margin: 0px;
+}
+
+a{
+text-decoration: none;
+}
+
+#footer,
+#page,#content,
+#pagewrap,
+#head, #site-wrap{
+width:320px;
+margin:0 auto;
+}
+
+#headerstrip h1{
+text-align:center;
+ margin-bottom: 18px;
+  margin-top: 4px;
+}
+
+#headerstrip h2{
+text-align:center;
+}
+ 
+#headerstrip img{
+border:none;
+padding:0px;
+ margin-bottom: 10px;
+}
+
+#headerstrip{
+margin-bottom:7px;
+}
+ 
+#textbox{
+padding-left:7px;
+padding-right:7px;
+padding-top:6px;
+padding-bottom:6px;
+}
+
+#textbox h1{
+padding-bottom: 7px;
+font-size:19px;
+}
+
+#textbox h2{
+padding-bottom: 7px;
+font-size:19px;
+}
+
+#textbox h3{
+padding-bottom: 7px;
+font-size:17px;
+}
+
+#textbox p{
+padding-bottom: 9px;
+}
+
+#mobilehomeimage{
+float: left;
+margin-bottom: 2px;
+margin-right: 10px;
+}
+
+.tertiary-menu ul{
+border-top: solid black 1px;
+}
+
+.tertiary-menu ul li{
+list-style:none;
+}
+
+.tertiary-menu li{
+padding-bottom: 18px;
+padding-top: 18px;
+border-bottom: solid black 1px;
+}
+.tertiary-menu a{
+text-decoration:none;
+padding-left:15px;
+text-shadow:1px 1px #000;
+font-size: 19px;
+}
+
+#home-link{
+margin: 0 auto;
+text-align: center;
+padding-top:17px;
+padding-bottom:17px;
+}
+
+#home-link
+a:link, a:visited {
+color:none;
+border:none;
+text-decoration:none
+}
+ 
+#footerstrip{
+margin: 0 auto;
+font-family: Arial; 
+font-size: 1.2em;
+padding-top:4px;
+padding-bottom:4px;
+}
+
+#footerstrip a{
+text-decoration:none;}
+
+#footerstrip p{
+text-align:center;
+font-size:10px;
+color: black;
+}
+
+#footer{
+text-align: center;
+}
+
+/*  Hide our full site UI elements: */
+#footer .footercenter,
+#featured,
+#access,
+#header { 
+    display:none; 
+}
+
+/* Change others: */
+body{
+    background:none;
+    background-color:none;
+}
+
+#page{
+    background:none;
+    width:auto;
+}
+#site-wrap{    
+    margin-top:0px;
+}
+#content{
+    padding:0;
+    float:none;
+    margin:auto;   
+}
+#footer #site-ui-switch-link {
+    display:block; margin:auto;
+    text-align:center;
+}
+
+#footer-mobile-switch p {
+margin-bottom:0px; 
+padding-top:4px;
+padding-bottom:4px;
+}

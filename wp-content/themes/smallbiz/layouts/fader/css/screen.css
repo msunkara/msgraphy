@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+
+/* Slider Unique CSS */
+
+#homewrap {
+margin-left:-7px;
+margin-top:6px;
+}
+
+#home{
+width:960px;
+}
+
+#homepage-main-text{
+float: left;
+width: 938px;
+margin-left:-8px;
+padding-left:10px;
+padding-right:10px;
+overflow:hidden;
+margin-top: -18px;
+}
+
+#homepage-main-text img{
+padding:0px;
+-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+    -moz-box-shadow:  0 1px 2px #AAAAAA;
+	-webkit-box-shadow:  0 1px 2px #AAAAAA;
+    box-shadow: 0 1px 2px #AAAAAA;
+}
+
+#content {
+	padding-top:6px;
+}
+
+/* Slider */
+
+	#slider img{
+	padding:0px;
+	width:957px;
+	height:238px;
+	 -webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	}
+
+	#slider ul, #slider li,
+	#slider2 ul, #slider2 li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider2{margin-top:1em;}
+	#slider li, #slider2 li{ 
+		width:960px;
+		height:241px;
+		overflow:hidden; 
+		}	
+	#prevBtn, #nextBtn,
+	#slider1next, #slider1prev{ 
+		display:block;
+		width:30px;
+		height:77px;
+		position:absolute;
+		left:30px;
+		top:290px;
+		z-index:1000;
+		}	
+	#nextBtn, #slider1next{ 
+		left:886px;
+		}														
+	#prevBtn a, #nextBtn a,
+	#slider1next a, #slider1prev a{  
+		display:block;
+		position:relative;
+		width:30px;
+		height:77px;
+		}	
+	#nextBtn a, #slider1next a{ 	
+		}	
+		
+	/* numeric controls */	
+
+	ol#controls{
+		xxmargin:1em 20px;
+		xxpadding:0;
+		xxheight:28px;	
+		xxheight:0px;
+		}
+	ol#controls li{
+		margin:0 10px 0 0; 
+		padding:0;
+		float:left;
+		list-style:none;
+		height:28px;
+		line-height:28px;
+		}
+	ol#controls li a{
+		xxfloat:left;
+		xxheight:28px;
+		xxline-height:28px;
+		xxborder:1px solid #ccc;
+		xxcolor:#555;
+		xxpadding:0 10px;
+		xxtext-decoration:none;
+		xx-webkit-border-radius: 8px;
+		xx-moz-border-radius: 8px;
+		xxborder-radius: 8px;
+		display:none;
+		}
+	ol#controls li.current a{
+		font-size:22px;
+		color:#555;
+		}
+	ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
+	
+/* Slider */
